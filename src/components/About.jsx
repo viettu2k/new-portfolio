@@ -43,7 +43,7 @@ const About = () => (
       variants={fadeIn('', '', 0.1, 1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
-    Experienced software engineer with more than 1.5 years of hands-on expertise in web development. Graduated Magna Cum Laude from Duy Tan University. Proficient in JavaScript and TypeScript, and adept at utilizing frontend skills, backend skills, and devops skills debugging, testing, optimizing assets, and ensuring responsive designs. Demonstrates a robust understanding of backend technologies. An enthusiastic team player with an unwavering commitment to self-learning.
+    Experienced software engineer with more than 1.5 years of hands-on expertise in web development. Graduated Magna Cum Laude from Duy Tan University. Proficient in JavaScript and TypeScript, and adept at utilizing frontend skills, backend skills, devops skills, debugging, testing, optimizing assets, and ensuring responsive designs. Demonstrates a robust understanding of backend technologies. An enthusiastic team player with an unwavering commitment to self-learning.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service, index) => (
