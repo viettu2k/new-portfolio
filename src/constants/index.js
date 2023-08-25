@@ -23,7 +23,7 @@ import {
   dashboard,
   threejs,
   travelFriends,
-  enclave
+  enclave,
 } from '../assets';
 
 export const navLinks = [
@@ -43,7 +43,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Frontend Developer',
     icon: web,
   },
   {
@@ -119,49 +119,22 @@ const experiences = [
     iconBg: '#383E56',
     date: 'January 2022 - current',
     points: [
-      "UI design using Figma.",
-      "Implemented interactive UI components.",
-      "Designed efficient database schemas.",
-      "Conducted code reviews for team members.",
-      "Estimated task timelines.",
-      "Researched project-specific domains.",
-      "Developed robust backend APIs.",
-      "Created comprehensive data using Faker.",
-      "Seamlessly integrated APIs with UI.",
-      "Automated app to Lyrid deployment with GitHub Actions.",
-      "Expertly refactored and optimized codebase.",
-      "Facilitated communication between services within NestJS microservices through GRPC.",
-      "Developed and executed Unit Tests.",
-      "Documenting project artifacts.",
-      "Participating in the development of the project through Scrum process."
+      'UI design using Figma.',
+      'Implemented interactive UI components.',
+      'Designed efficient database schemas.',
+      'Conducted code reviews for team members.',
+      'Estimated task timelines.',
+      'Researched project-specific domains.',
+      'Developed robust backend APIs.',
+      'Created comprehensive data using Faker.',
+      'Seamlessly integrated APIs with UI.',
+      'Automated app to Lyrid deployment with GitHub Actions.',
+      'Expertly refactored and optimized codebase.',
+      'Facilitated communication between services within NestJS microservices through GRPC.',
+      'Developed and executed Unit Tests.',
+      'Documenting project artifacts.',
+      'Participating in the development of the project through Scrum process.',
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
